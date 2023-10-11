@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Apply styles to the login container */
+.login-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid skyblue; /* Add a sky blue border */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Apply styles to input fields */
+.input-field {
+  background-color: black;
+  color: white;
+  border: 1px solid skyblue; /* Add a sky blue border */
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Apply styles to login button */
+.login-button {
+  background-color: skyblue;
+  color: black;
+  border: 1px solid skyblue; /* Add a sky blue border */
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Apply styles to sign-up button */
+.signup-button {
+  background-color: skyblue;
+  color: black;
+  border: 1px solid skyblue; /* Add a sky blue border */
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Override the default button styles for logout button */
+#logout-button {
+  background-color: skyblue;
+  color: black;
+  border: 1px solid skyblue; /* Add a sky blue border */
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Home Component Styles */
+
+/* Background and Text Colors */
+.home-container {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 20px;
+}
+
+/* Task List Styles */
+.task-list {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid skyblue;
+}
+
+/* Task Input and Buttons */
+.task-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.task-actions input[type="text"] {
+  background-color: black;
+  color: white;
+  border: 1px solid skyblue;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.task-actions button {
+  background-color: skyblue;
+  color: black;
+  border: 1px solid skyblue;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-task {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.edit-task input[type="text"] {
+  background-color: black;
+  color: white;
+  border: 1px solid skyblue;
+  padding: 5px;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.edit-task button {
+  background-color: skyblue;
+  color: black;
+  border: 1px solid skyblue;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Task List Items */
+.task-items {
+  list-style: none;
+  padding: 0;
+}
+
+.task-items li {
+  background-color: black;
+  color: white;
+  /*border: 1px solid skyblue;*/
+  padding: 10px;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.task-items li.completed {
+  background-color: #327595;
+  text-decoration: line-through;
+}
+
+/* Task Options (Delete and Mark) */
+.task-options {
+  margin-left: auto;
+  display: flex;
+}
+
+.task-options button {
+  background-color: skyblue;
+  color: black;
+  border: 1px solid skyblue;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Batch Action Buttons */
+.batch-actions {
+  margin-top: 10px;
+}
+
+.batch-actions button {
+  background-color: skyblue;
+  color: black;
+  border: 1px solid skyblue;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+/* About Component Styles */
+
+/* Background and Text Colors */
+.about-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid skyblue;
+}
+
+/* Headings */
+.about-container h2 {
+  color: skyblue;
+}
+
+/* Developer and Version Info */
+.about-container p {
+  margin: 10px 0;
+}
+
+.about-container strong {
+  color: skyblue;
+}
+
+/* Contact Link */
+.about-container a {
+  color: skyblue;
+  text-decoration: none;
+}
+
+.about-container a:hover {
+  text-decoration: underline;
+}
+
+/* Closing Message */
+.about-container em {
+  font-style: italic;
+}
+
+/* Apply styles to the profile container */
+.profile {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid skyblue; /* Add a sky blue border */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Apply styles to buttons */
+button {
+  background-color: skyblue;
+  color: black;
+  border: 1px solid skyblue; /* Add a sky blue border */
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: white;
+  color: skyblue;
+}
+

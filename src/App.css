@@ -1,0 +1,69 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(32, 38, 53);
+  color: white;
+}
+
+/* Header Styles */
+.App-header {
+  background-color: black; /* Black header background */
+  color: white; /* White text color */
+  padding: 1rem;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Navigation Links */
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list li {
+  margin: 0 10px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: rgb(255, 255, 255); /* White link text color */
+}
+
+/* Logo Styles */
+.App-header img {
+  max-width: 100px; /* Adjust the logo's max width as needed */
+  height: auto;
+}
+
+/* Main Content Styles (Add your specific styles here) */
+main {
+  padding: 2rem;
+  /* White background for main content */
+  color: rgb(255, 255, 255); /* Black text color */
+}
+
+/* Apply styles to the footer */
+.App-footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  align-items: center;
+  vertical-align: middle;
+}
+
+/* Style the text within the footer */
+.App-footer p {
+  margin: 0;
+  font-size: 14px;
+ 
+}
