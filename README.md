@@ -31,7 +31,7 @@ The Todo Web App is a simple web application that allows users to manage their t
 ### Profile Component
 - The Profile component displays the user's username.
 - Users can log out from the app by clicking the "Log Out" button.
-- There's also an option to delete the user's data from local storage.
+
 
 ## User Authentication
 - User authentication is implemented using React context and the UserContext component.
