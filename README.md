@@ -57,6 +57,15 @@ The Todo Web App is a simple web application that allows users to manage their t
 - Add additional features such as task due dates and task categories.
 - Implement user profiles with more user-specific information.
 
+## Setup to run webapp in development mode
+- Setup React.js.
+- Open directory in terminal in which you want create project.
+- Run command "npm create-react-app todo".
+- Run command "npm install react-router-dom" (to install library which is used in webapp).
+- Replace file of public & src directory to files of repository's public & src directory.
+- Run command "npm start" in terminal.
+- It will start running on localhost.
+
 ## Conclusion
 The Todo Web App is a simple task management application built with React. It provides basic task management features along with user authentication and data persistence. This app can serve as a foundation for building more complex task management applications with additional features and functionality.
 
