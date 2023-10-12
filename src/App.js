@@ -54,12 +54,7 @@ function App() {
           <Route path="/Login" element={<Login/>} />
           
         </Routes>
-        
-       
       
-       
-
-        
         </main>
         <footer className="App-footer">
           <p>&copy; {new Date().getFullYear()} ToDo</p> 

@@ -5,6 +5,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: rgb(32, 38, 53);
   color: white;
+ 
 }
 
 /* Header Styles */
@@ -15,6 +16,7 @@ body {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+  width: 100%;
 }
 
 /* Navigation Links */
@@ -26,7 +28,11 @@ body {
 }
 
 .nav-list li {
-  margin: 0 10px;
+  margin: 0 30px;
+  font-size: 20px;
+}
+.nav-list li :hover {
+ color: rgb(122, 217, 255);
 }
 
 .nav-list a {
@@ -35,14 +41,14 @@ body {
 }
 
 /* Logo Styles */
-.App-header img {
+.App-header svg {
   max-width: 100px; /* Adjust the logo's max width as needed */
   height: auto;
 }
 
 /* Main Content Styles (Add your specific styles here) */
 main {
-  padding: 2rem;
+  padding: 1rem;
   /* White background for main content */
   color: rgb(255, 255, 255); /* Black text color */
 }
@@ -55,15 +61,15 @@ main {
   padding: 10px;
   position: absolute;
   bottom: 0;
-  width: 100%;
-  height: 5%;
+  width: 101%;
+  height: 7%;
   align-items: center;
   vertical-align: middle;
 }
 
 /* Style the text within the footer */
 .App-footer p {
-  margin: 0;
-  font-size: 14px;
- 
+  align-items: center;
+  vertical-align: middle;
+  font-size: 15px;
 }
