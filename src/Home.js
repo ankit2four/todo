@@ -107,6 +107,7 @@ function Home({ currentUser }) {
     <div className="task-list">
       <h1>Task List for {currentUser.username}</h1>
       <div className="task-actions">
+    
         <input
           type="text"
           placeholder="New Task"
@@ -114,14 +115,16 @@ function Home({ currentUser }) {
           onChange={(e) => setNewTaskText(e.target.value)}
         />
         <button onClick={handleAddTask}>Add</button>
-        {selectedTasks.length > 0 && (
+      
+        
+      </div>
+      {selectedTasks.length > 0 && (
           <div className="batch-actions">
             <button onClick={handleBatchComplete}>Mark as Complete</button>
             <button onClick={handleBatchInComplete}>Mark as Incomplete</button>
             <button onClick={handleBatchDelete}>Delete</button>
           </div>
         )}
-      </div>
       <ul className="task-items">
         {tasks.map((task) => (
           <li
@@ -130,6 +133,7 @@ function Home({ currentUser }) {
             onMouseEnter={() => setShowOptions(task.id)}
             onMouseLeave={() => setShowOptions(null)}
           >
+            <div>
             <input
               type="checkbox"
               checked={selectedTasks.includes(task.id)}
@@ -158,6 +162,7 @@ function Home({ currentUser }) {
                 )}
               </>
             )}
+            </div>
           </li>
         ))}
       </ul>
