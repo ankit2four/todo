@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css'; // Import the CSS file
-import { BrowserRouter as Router, Route, Routes , Link, Navigate} from 'react-router-dom';
+import { HashRouter as Router, Route, Routes , Link, Navigate} from 'react-router-dom';
 import Login from './Login';
 import Home from './Home';
 import Home1 from './Home1';
